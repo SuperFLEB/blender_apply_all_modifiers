@@ -16,8 +16,8 @@ bl_info = {
     "name": "Apply All Modifiers",
     "description": "Apply all Modifiers in the open Scene",
     "author": "FLEB (a.k.a. SuperFLEB)",
-    "version": (0, 1, 0),
-    "blender": (3, 1, 0),
+    "version": (0, 2, 0),
+    "blender": (3, 3, 0),
     "location": "View3D > Object",
     "warning": "",  # used for warning icon and text in addons panel
     "doc_url": "https://github.com/SuperFLEB/blender_apply_all_modifiers",
