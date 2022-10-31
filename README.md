@@ -32,4 +32,3 @@ A few things to watch out for:
 
 Also, this comes with some of the same gotchas as a manual Apply Modifier:
 * Boolean modifiers will be applied, but boolean "brushes" will not be deleted. (This is how applying the modifier would work, but it's still something to keep in mind.)
-* Modifiers such as Subdivision Surface, that have different View and Render values, will apply the View value.
