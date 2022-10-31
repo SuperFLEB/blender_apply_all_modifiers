@@ -4,6 +4,19 @@ https://github.com/SuperFLEB/blender_apply_all_modifiers
 
 Apply all modifiers in the current file, preserving linked duplicates and applying the modifier stack to all instances.
 
+## To install
+
+Either install the ZIP file from the release, clone this repository and use the
+build_release.py script to build a ZIP file that you can install into Blender.
+
+## To use
+
+Use the "Apply All Modifiers" menu item in the 3D Viewport menu bar. A Redo menu allowing options to be set will appear
+in the bottom left.
+
+* **Use View or Render values?** - For parameters where there is a "View" and "Render" difference (such as Subdivision Surface), this will allow you to pick which to use.
+* **Enable hidden modifiers** - By default, hidden modifiers are ignored and discarded. This will incorporate them.
+
 ## Caveats
 
 This is a very quick-and-dirty solution to my immediate needs, so it's a bit less than thoroughly featured and tested.
@@ -20,16 +33,3 @@ A few things to watch out for:
 Also, this comes with some of the same gotchas as a manual Apply Modifier:
 * Boolean modifiers will be applied, but boolean "brushes" will not be deleted. (This is how applying the modifier would work, but it's still something to keep in mind.)
 * Modifiers such as Subdivision Surface, that have different View and Render values, will apply the View value.
-
-## To install
-
-Either install the ZIP file from the release, clone this repository and use the
-build_release.py script to build a ZIP file that you can install into Blender.
-
-## To use
-
-Use the "Apply All Modifiers" menu item in the 3D Viewport menu bar. A Redo menu allowing options to be set will appear
-in the bottom left.
-
-* **Use View or Render values?** - For parameters where there is a "View" and "Render" difference (such as Subdivision Surface), this will allow you to pick which to use.
-* **Enable hidden modifiers** - By default, hidden modifiers are ignored and discarded. This will incorporate them.
