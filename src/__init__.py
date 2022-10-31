@@ -54,7 +54,7 @@ registerable_modules = [
 classes = []
 
 menus = [
-    ["TOPBAR_MT_edit", menuitem(edit_menu.ApplyAllModifiersSubmenu)],
+    ["VIEW3D_MT_editor_menus", menuitem(edit_menu.ApplyAllModifiersSubmenu)],
 ]
 
 
